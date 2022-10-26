@@ -1,0 +1,19 @@
+{
+    "name": "david/webservice_1",
+    "description": "Proyecto_API1",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Ureña Arroniz"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
